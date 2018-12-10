@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D869D8A821BE53C4009779DF /* DocumentCaptureCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D869D8A721BE53C4009779DF /* DocumentCaptureCocoaPods.framework */; };
 		D8929A2421B7953A007D5393 /* TestCocoaPodFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8929A2221B7953A007D5393 /* TestCocoaPodFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8929A2C21B7954E007D5393 /* FirstViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8929A2A21B7954E007D5393 /* FirstViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8929A2D21B7954E007D5393 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8929A2B21B7954E007D5393 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D869D8A721BE53C4009779DF /* DocumentCaptureCocoaPods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DocumentCaptureCocoaPods.framework; sourceTree = "<group>"; };
 		D8929A1F21B7953A007D5393 /* TestCocoaPodFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoaPodFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8929A2221B7953A007D5393 /* TestCocoaPodFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoaPodFramework.h; sourceTree = "<group>"; };
 		D8929A2321B7953A007D5393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,17 +27,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D869D8A821BE53C4009779DF /* DocumentCaptureCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D869D8A221BE4F2F009779DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D869D8A721BE53C4009779DF /* DocumentCaptureCocoaPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8929A1521B7953A007D5393 = {
 			isa = PBXGroup;
 			children = (
 				D8929A2121B7953A007D5393 /* TestCocoaPodFramework */,
 				D8929A2021B7953A007D5393 /* Products */,
+				D869D8A221BE4F2F009779DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -265,6 +277,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestCocoaPodFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -286,6 +303,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestCocoaPodFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
