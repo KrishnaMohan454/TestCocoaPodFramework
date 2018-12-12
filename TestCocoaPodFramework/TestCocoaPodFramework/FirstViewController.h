@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DocumentCaptureCocoaPods/DocumentCaptureCocoaPods.h>
 
 @interface FirstViewController : UIViewController
 

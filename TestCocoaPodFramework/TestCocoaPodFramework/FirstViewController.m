@@ -26,6 +26,8 @@
 
 -(void)data{
     NSLog(@"checking");
+    DataViewController *data = [[DataViewController alloc]init];
+    [data printData];
 }
 
 @end
