@@ -1,0 +1,16 @@
+PODS:
+  - DocumentCaptureCocoaPods (1.0.0)
+
+DEPENDENCIES:
+  - DocumentCaptureCocoaPods
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DocumentCaptureCocoaPods
+
+SPEC CHECKSUMS:
+  DocumentCaptureCocoaPods: d4ecbdcdec0495ea69d9f9c01b5a79bf194806e0
+
+PODFILE CHECKSUM: a4f9e17ebeb91fbb3596fe619a9505e4eb667d5a
+
+COCOAPODS: 1.5.3
