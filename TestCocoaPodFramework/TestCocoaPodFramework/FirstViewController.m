@@ -29,7 +29,6 @@
     
     DataViewController *data = [[DataViewController alloc]init];
     [data printData];
-    
     NSLog(@"frameworjk working on");
 }
 
