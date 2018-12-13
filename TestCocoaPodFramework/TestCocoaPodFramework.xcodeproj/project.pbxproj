@@ -56,8 +56,6 @@
 		D8929A1521B7953A007D5393 = {
 			isa = PBXGroup;
 			children = (
-				D8929A2A21B7954E007D5393 /* FirstViewController.h */,
-				D8929A2B21B7954E007D5393 /* FirstViewController.m */,
 				D8929A2121B7953A007D5393 /* TestCocoaPodFramework */,
 				D8929A2021B7953A007D5393 /* Products */,
 				D869D8A221BE4F2F009779DF /* Frameworks */,
@@ -76,6 +74,8 @@
 		D8929A2121B7953A007D5393 /* TestCocoaPodFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D8929A2A21B7954E007D5393 /* FirstViewController.h */,
+				D8929A2B21B7954E007D5393 /* FirstViewController.m */,
 				D8929A2221B7953A007D5393 /* TestCocoaPodFramework.h */,
 				D8929A2321B7953A007D5393 /* Info.plist */,
 			);
