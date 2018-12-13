@@ -11,6 +11,8 @@
 
 @interface FirstViewController : UIViewController
 
+
 -(void)data;
+
 
 @end
